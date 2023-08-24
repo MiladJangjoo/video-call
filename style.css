@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300;10..48,400;10..48,500;10..48,600&family=Inter:wght@300;400;500;600&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: rgb(221, 205, 205);
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-area: 
+    "one one one two"
+    "three three three two"
+    "three three three two"
+    "three three three two"
+    "three three three two"
+    ;   
+    gap: 15px;
+    
+    width: 1000px;
+    height: 600px;
+    position: relative;
+    top: 30px;
+    left: 200px;
+
+}
+
+.header {
+    grid-area: 1 / span 3;
+    height: 50px;
+    background-color: blue;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+.container2 {
+    grid-area: 2/ span 3;
+}
+
+.big-img {
+    width: 731.25px;
+    height: 500px;
+    position: absolute;
+    top: 75px;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+.small-img {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 90px;
+    border-radius: 15px;
+    margin-left: 30px;
+    
+}
+
+.jane p {
+    position: absolute;
+    top:120px;
+    left :200px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    width: 35px;
+    height: 20px;
+    font-size: 15px;
+    padding-left: 1px;
+}
+
+.container4 {
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 15px;
+    height:527px;
+    position: relative;
+}
+
+.chat {
+    position: absolute;
+    background-color: gray;
+    border-radius: 5px;
+    left: 10px;
+    height: 30px;
+    padding-top: 5px;
+    width: 85px;
+    text-align: center;
+}
+
+.p {
+    position: absolute;
+    right: 10px;
+    background-color: gray;
+    border-radius: 5px; 
+    height: 30px;
+    padding-top: 5px;
+}
+
+.container5 {
+    
+    margin:10px;
+    position: relative;
+    margin-top: 70px;
+    border-radius: 15px;
+    
+    
+}
+
+.container5 p {
+    background-color: gray;
+    border-radius: px;
+
+    
+}
+
+.say {
+    background-color: gray;
+    border-radius: 15px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.ki {
+    display: inline;
+    background-color: gray;
+    border-radius: 15px;
+    margin-left: 20px;
+    
+    
+}
+.ui {
+    display: inline-block;
+
+}
+
+.container3 {
+    display: flex;
+    position: absolute;
+    left: 510px;
+    background-color: white;
+    width:200px ;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    bottom: 150px;
+
+    
+    
+}
+
+
+
